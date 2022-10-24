@@ -17,6 +17,9 @@ function ProjectDisplay() {
       <a href={project.github}>
         <GitHubIcon />
       </a>
+      <section>
+        <p>{project.description}</p>
+      </section>
     </div>
   );
 }
