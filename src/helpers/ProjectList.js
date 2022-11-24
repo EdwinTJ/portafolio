@@ -1,14 +1,14 @@
-import sendEmail from "../assets/sendEmail.png";
+import Menu from "../assets/Menu.png";
 import chatApp from "../assets/chatApp.png";
 import Ecommerce from "../assets/Ecommerce.png";
 export const ProjectList = [
   {
-    name: "Contact Form",
-    image: sendEmail,
-    skills: "Node.js, express",
-    github: "https://github.com/EdwinTJ/Send-Email",
-    description: "Description Of the project",
-    link: "",
+    name: "Menu",
+    image: Menu,
+    skills: "React",
+    github: "https://github.com/EdwinTJ/menu",
+    description: "Display of a menu",
+    link: "https://papaya-arithmetic-fda412.netlify.app/",
   },
   {
     name: "Chat App",
