@@ -1,6 +1,7 @@
 import Menu from "../assets/Menu.png";
 import chatApp from "../assets/chatApp.png";
 import Ecommerce from "../assets/Ecommerce.png";
+import API from "../assets/API.png";
 export const ProjectList = [
   {
     name: "Menu",
@@ -25,5 +26,12 @@ export const ProjectList = [
     github: "https://e-commer-edwin.netlify.app",
     description: "A online store,display products,filtering system",
     link: "https://e-commer-edwin.netlify.app/",
+  },
+  {
+    name: "Products Api",
+    image: API,
+    skills: "NodeJS,Express",
+    github: "https://github.com/EdwinTJ/Node-ApiProducts",
+    description: "A list of products with diferent values",
   },
 ];
