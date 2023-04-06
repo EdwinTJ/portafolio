@@ -17,7 +17,11 @@ function ProjectDisplay() {
       <a href={project.github}>
         <GitHubIcon />
       </a>
-      <a href={project.link}>{project.name}</a>
+      <div>
+        <h3>Live Demo:</h3>
+        <a href={project.link}>{project.name}</a>
+      </div>
+
       <section>
         <p id="description">{project.description}</p>
       </section>
