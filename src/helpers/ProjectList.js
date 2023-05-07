@@ -1,7 +1,8 @@
 import Menu from "../assets/Menu.png";
 import chatApp from "../assets/chatApp.png";
-import MercanciaTijuana from "../assets/MercanciaTijuana.png";
+import AnimeShop from "../assets/AnimeShop.jpg";
 import IconTwitter from "../assets/IconTwitter.jpg";
+import RateGames from "../assets/RateGames.jpg";
 export const ProjectList = [
   {
     name: "Menu",
@@ -24,8 +25,8 @@ export const ProjectList = [
 
   {
     name: "Anime Shop Tijuana",
-    image: MercanciaTijuana,
-    github: "https://figuras-website.vercel.app/",
+    image: AnimeShop,
+    github: "https://github.com/EdwinTJ/figuras_website",
     skills: "React,NodeJS,Express,MongoDB,Vercel,Railway",
     description:
       "This website has the porpuse of display the products of a company. Also, it has an admin panel where the admin can add, edit and delete products." +
@@ -48,5 +49,20 @@ export const ProjectList = [
       " For the deployment I use Vercel, and planetScale for the database hosting",
     link: "https://icon-twitter-uf42-ipucn3gq4-edwintj.vercel.app/",
     client: "Course",
+  },
+
+  {
+    name: "Rate Games",
+    image: RateGames,
+    github: "https://github.com/EdwinTJ/rategames",
+    skills: "TypeScript,Zod,Prisma,Bootstrap,NodeJS,Express,VUEJS",
+    description:
+      "This website is a game review website by only using emojis" +
+      " The backend was created with express and the frontend with VueJs. Then for the authentication I use clerk." +
+      " For the database I use Prisma with MySQL and for the styling I use Bootstrap." +
+      " I use typescript for the whole project and zod for the validation of the data." +
+      " For the deployment I use Vercel, and planetScale for the database hosting",
+    link: "https://rategames.vercel.app/",
+    client: "Myself",
   },
 ];
