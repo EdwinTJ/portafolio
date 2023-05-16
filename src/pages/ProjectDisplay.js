@@ -21,6 +21,10 @@ function ProjectDisplay() {
         <h3>Live Demo:</h3>
         <a href={project.link}>{project.name}</a>
       </div>
+      <div>
+        <h3>Client:</h3>
+        <p>{project.client}</p>
+      </div>
 
       <section>
         <p id="description">{project.description}</p>
