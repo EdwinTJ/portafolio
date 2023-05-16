@@ -18,7 +18,7 @@ export const ProjectList = [
     image: chatApp,
     skills: "Cors,socket.io,nodeJS",
     github: "https://github.com/EdwinTJ/chat-app-server",
-    description: "Chat wiht someone in the same room",
+    description: "Chat with someone in the same room",
     link: "https://chat-app-ui-production.up.railway.app/",
     client: "Course",
   },
@@ -29,7 +29,7 @@ export const ProjectList = [
     github: "https://github.com/EdwinTJ/figuras_website",
     skills: "React,NodeJS,Express,MongoDB,Vercel,Railway",
     description:
-      "This website has the porpuse of display the products of a company. Also, it has an admin panel where the admin can add, edit and delete products." +
+      "This website has the purpose of display the products of a company. Also, it has an admin panel where the admin can add, edit and delete products." +
       " The backend was created with express and the frontend with React" +
       " For the database I use MongoDB",
     link: "https://figuras-website.vercel.app/",
